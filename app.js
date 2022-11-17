@@ -28,6 +28,8 @@ window.addEventListener('load', async () => {
 
     displayData(mock_user_data, userDataEl, renderUserData);
     displayData(mock_grocery_data, groceryDataEl, renderGroceryData);
+    displayData(cat_breed_list, catBreedsEl, renderCatBreeds);
+    displayData(company_list, companyListEl, renderCompanies);
 });
 
 /* Display Functions */

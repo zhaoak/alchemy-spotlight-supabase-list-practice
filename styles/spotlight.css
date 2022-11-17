@@ -9,6 +9,8 @@ section {
     display: flex;
     flex-flow: column nowrap;
     gap: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .item {
