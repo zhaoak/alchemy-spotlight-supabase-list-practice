@@ -11,7 +11,7 @@ export function renderUserData(user) {
     ip.textContent = user.ip_address;
 
     userDataEl.append(fullName, email, username, ip);
-    //userDataEl.classList.add('user-data-box');
+    userDataEl.classList.add('item');
     return userDataEl;
 }
 

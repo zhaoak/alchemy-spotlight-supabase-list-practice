@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3px;
+}
+
+.item {
+    border: thin dashed gray;
+}
